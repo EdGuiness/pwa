@@ -3,6 +3,7 @@
   "name": "Organisers App",
   "short_name": "OrgApp",
   "description": "A progressive web app for Organisers",
+  "scope": "/",
   "start_url": "/",
   "display":"minimal-ui",
   "background_color": "#2f3d58",

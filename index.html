@@ -31,10 +31,9 @@
 
 <script>
     if (navigator.serviceWorker) {
-        navigator.serviceWorker.register (
-            '/sw.js',
-            {scope: '/'}
-        )
+        console.log('Attempting to start sw');
+        navigator.serviceWorker.register('sw.js');
     }
+    
 </script>
 </html>
