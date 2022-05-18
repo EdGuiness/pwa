@@ -30,8 +30,11 @@
     </div>
 
 <script>
-    if('serviceWorker' in navigator) {
-        navigator.serviceWorker.register('sw.js');
-    };
+    if (navigator.serviceWorker) {
+        navigator.serviceWorker.register (
+            '/sw.js',
+            {scope: '/'}
+        )
+    }
 </script>
 </html>
