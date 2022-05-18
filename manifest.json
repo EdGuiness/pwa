@@ -4,14 +4,15 @@
   "short_name": "OrgApp",
   "description": "A progressive web app for Organisers",
   "start_url": "/",
+  "display":"minimal-ui",
   "background_color": "#2f3d58",
   "theme_color": "#2f3d58",
   "orientation": "any",
-  "display": "standalone",
   "icons": [
     {
       "src": "/img/unite512.png",
-      "sizes": "512x512"
+      "sizes": "512x512",
+      "type": "image/png"
     }
   ]
 }
