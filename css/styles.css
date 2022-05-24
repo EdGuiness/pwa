@@ -20,3 +20,14 @@ p {
 a {
     color: #369;
 }
+
+
+
+img {
+    width:100%;
+    height: auto;
+}
+
+.container {
+    margin: 0 auto;
+}
