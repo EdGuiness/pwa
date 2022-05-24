@@ -1,7 +1,7 @@
 {
-  "name": "Github Page PWA",
-  "short_name": "GPPWA",
-  "description": "Github Page as a Progressive Web App",
+  "name": "Organisers App",
+  "short_name": "Organisers App",
+  "description": "Organisers App",
   "scope": "/pwa/",
   "start_url": "/pwa/",
   "background_color": "#ffffff",
