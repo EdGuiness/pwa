@@ -13,7 +13,14 @@
  
   <h1>Organisers App</h1>
   <p>
-    <img src="/pwa/img/growth.png"  alt=""/>
+    <img src="img/growth.jpg"  alt="" id="growth" class="chart"/>
+    <img src="img/joiners.jpg"  alt="" id="joiners" class="chart" style="display: none;"/>
+    <img src="img/monthly.jpg"  alt="" id="monthly" class="chart" style="display: none;"/>
+  </p>
+  <p>
+    <button type="button" onclick="showImg('growth');">Growth</button>
+    <button type="button" onclick="showImg('joiners');">Joiners</button>
+    <button type="button" onclick="showImg('monthly');">Monthly</button>
   </p>
 
   <script>
