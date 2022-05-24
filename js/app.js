@@ -1,1 +1,1 @@
-console.log('I am running!');
+console.log('App is running');
